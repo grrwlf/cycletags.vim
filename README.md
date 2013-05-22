@@ -7,13 +7,15 @@ identifier by repeatedly pressing Ctrl-]
 Install
 -------
 
-Consider using pathogen [https://github.com/tpope/vim-pathogen]
+Consider using pathogen
+
+https://github.com/tpope/vim-pathogen
 
 Usage
 -----
 
-The plugin turns <C-]> into tag-cycling command by (relatively) wisely calling
-tnext/trewind.  In order to map other key (say, <C-t>), place following lines in
+The plugin turns Ctrl+] into tag-cycling command by (relatively) wisely calling
+tnext/trewind.  In order to map other key (say, Ctrl+t), place following lines in
 your .vimrc:
 
 	let g:cycletags_no_mappings = 1
