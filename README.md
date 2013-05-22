@@ -15,8 +15,8 @@ Usage
 -----
 
 The plugin turns Ctrl+] into tag-cycling command by (relatively) wisely calling
-tnext/trewind.  In order to map other key (say, Ctrl+t), place following lines in
-your .vimrc:
+tnext/trewind.  In order to map, say, Ctrl+t instead of default Ctrl+], place
+following lines in your .vimrc:
 
 	let g:cycletags_no_mappings = 1
 	map <C-t> :call CycleTags(expand('<cword>'))<CR>
